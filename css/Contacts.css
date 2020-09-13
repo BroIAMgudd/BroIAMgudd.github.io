@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background: url(../Pictures/contactUS.jpeg);
+  background-size: cover;
+}
+
+main .Contact-Title {
+  margin-top: 100px;
+  color: honeydew;
+  transition: all 4s ease-in-out;
+}
+main .Contact-Title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+main .Contact-Title h2 {
+  font-size: 16px;
+}
+
+main form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+
+main .form-control {
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: honeydew;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+main input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: honeydew;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin: 20px;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
