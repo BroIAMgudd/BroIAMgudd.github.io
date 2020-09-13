@@ -9,7 +9,7 @@
   <body>
     <header>
       <div class="container">
-        <img src="Pictures/Teck.png" alt="logo" class="logo">
+        <img src="pics/Teck.png" alt="logo" class="logo">
         <nav>
           <ul>
             <li><a href="http://192.168.8.71:4000/Learning-PHP/index.php">Home</a></li>
