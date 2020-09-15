@@ -91,7 +91,15 @@ var textReplies = function() {
       clearInput();
       getTimeAndDate("date");
       break;
-    
+  }
+}
+var checkWord = function() {
+  textInputValue = document.getElementById('terminalTextInput').value.trim();
+  textInputValueLowerCase = textInputValue.toLowerCase();
+  
+  if (textInputValue != ""){
+    addTextToResults("<p class='userEnteredText'>" + textInputValue + "</p>");
+    if (textInputValueLowerCase.substr(0, 5))
   }
 }
 
